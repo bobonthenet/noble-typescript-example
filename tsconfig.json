@@ -4,7 +4,8 @@
     "moduleResolution": "node",
     "outDir": "./built",
     "allowJs": true,
-    "target": "es2021"
+    "target": "es2021",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["./src/**/*"]
 }

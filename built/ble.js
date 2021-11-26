@@ -1,4 +1,4 @@
-import * as noble from '@abandonware/noble';
+import { default as noble } from '@abandonware/noble';
 export default class Ble {
     discover(beacons) {
         noble.on('discover', async (peripheral) => {
