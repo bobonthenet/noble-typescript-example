@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "es2021"
+  },
+  "include": ["./src/**/*"]
+}

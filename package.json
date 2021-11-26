@@ -1,0 +1,23 @@
+{
+  "name": "aistuff",
+  "version": "1.0.0",
+  "description": "Test project for learning stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bobby B.",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-15",
+    "democracy": "^3.1.3",
+    "keypress-prompt": "^0.3.2",
+    "ml-knn": "^3.0.0",
+    "mqtt": "^4.2.8"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "typescript": "^4.5.2"
+  }
+}
